@@ -54,7 +54,7 @@ The program will then output:
 
 ## 👨‍💻 Author
 
-- **Osaid Hasan Nur** – 1210733
+- **Osaid Nur**
 
 ## 📄 License
 
