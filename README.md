@@ -28,7 +28,7 @@ This project implements a deadlock detection system using C++. It models resourc
 - `Task3_OsaidNur_1210733.cpp` – Source code implementing the simulator
 - `ENCS3390_project3.pdf` – Project documentation and requirements
 
-## 🛠️ How to Run
+## 🔨 How to Run
 
 1. Ensure you have a C++ compiler (e.g., g++) installed.
 2. Compile the source file:
