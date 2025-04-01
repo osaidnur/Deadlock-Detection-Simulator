@@ -4,12 +4,12 @@ A C++ program that simulates the **deadlock detection algorithm** in operating s
 
 ## 📚 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Files Included](#files-included)
-- [How to Run](#how-to-run)
-- [Example Use](#example-use)
-- [Author](#author)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Files Included](#-files-included)
+- [How to Run](#-how-to-run)
+- [Example Use](#-example-use)
+- [Author](#-author)
 
 ## 📘 Overview
 
