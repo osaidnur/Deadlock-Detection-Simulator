@@ -8,7 +8,6 @@ This C++ project simulates deadlock detection in an operating system environment
 - [How It Works](#️-how-it-works)
 - [Usage](#-usage)
 - [Files](#-files)
-- [License](#-license)
 - [Author](#-author)
 
 ## 📁 Overview
