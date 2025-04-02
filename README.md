@@ -1,57 +1,57 @@
-# Deadlock Detection Simulator
+# 🧠 Deadlock Detection Simulator
 
-A C++ program that simulates the **deadlock detection algorithm** in operating systems. It mimics how a system can check for circular wait conditions among processes and detect if a deadlock has occurred.
+This C++ project simulates deadlock detection in an operating system environment by analyzing process-resource allocation scenarios using CSV input files.
 
 ## 📚 Table of Contents
 
 - [Overview](#-overview)
-- [Features](#-features)
-- [Files Included](#-files-included)
-- [How to Run](#-how-to-run)
-- [Example Use](#-example-use)
-- [Author](#-author)
+- [How It Works](#️-how-it-works)
+- [Usage](#-usage)
+- [Files](#-files)
+- [License](#-license)
 
-## 📘 Overview
+## 📁 Overview
 
-This project implements a deadlock detection system using C++. It models resources and processes using matrices and vectors, and follows the algorithm used to determine whether any set of processes is in a deadlock state based on current allocations and requests.
+The program reads three CSV files representing:
+- **Request matrix**: Describes what resources each process is requesting.
+- **Allocation matrix**: Describes what resources are currently allocated to each process.
+- **Available resources**: Lists the total currently available resources in the system.
 
-## ✨ Features
+It then simulates a deadlock detection algorithm, analyzing whether processes can proceed safely, or if a deadlock will occur. The output includes the system status and any deadlocked processes.
 
-- Input current allocation and request matrices
-- Input available resources
-- Deadlock detection based on system state
-- Clear reporting of safe or unsafe state
-- Identifies processes involved in a deadlock, if any
+## 🛠️ How It Works
 
-## 📁 Files Included
+1. Validates the format and size consistency of all three input files.
+2. Uses Banker's-like safety algorithm to detect possible deadlocks.
+3. Outputs the sequence of safe processes if the system is in a safe state, or lists the deadlocked processes.
 
-- `Task3_OsaidNur_1210733.cpp` – Source code implementing the simulator
-- `ENCS3390_project3.pdf` – Project documentation and requirements
+## 🧪 Usage
 
-## 🔨 How to Run
+1. Ensure the following files are in the correct path:
+   - `Request.csv`
+   - `Allocation.csv`
+   - `Available.csv`
 
-1. Ensure you have a C++ compiler (e.g., g++) installed.
-2. Compile the source file:
+2. Compile the C++ file:
    ```bash
-   g++ Task3_OsaidNur_1210733.cpp -o deadlock_sim
-   ```
-3. Run the program:
-   ```bash
-   ./deadlock_sim
+   g++ -o deadlock_simulator Task3_OsaidNur_1210733.cpp
    ```
 
-## 🧪 Example Use
+3. Run the simulator:
+   ```bash
+   ./deadlock_simulator
+   ```
 
-You will be prompted to enter:
-- Number of processes and resources
-- Allocation matrix
-- Request matrix
-- Available resource vector
+## 📦 Files
 
-The program will then output:
-- Whether the system is in a safe state
-- Any deadlock condition and which processes are affected
+- `Task3_OsaidNur_1210733.cpp` - Main implementation of the simulator
+- `CSV files/` - Contains sample input CSV files for simulation
+- `ENCS3390_project3.pdf` - Project specification document
 
-## 👨‍💻 Author
+## 📜 License
 
-- **Osaid Nur**
+This project is for educational use and submitted as part of coursework.
+
+---
+
+*Developed by Osaid Hasan Nur - ID: 1210733, Section: 4*
