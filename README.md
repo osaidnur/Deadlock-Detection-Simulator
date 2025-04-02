@@ -55,7 +55,3 @@ The program will then output:
 ## 👨‍💻 Author
 
 - **Osaid Nur**
-
-## 📄 License
-
-This project is intended for academic and learning purposes only.
