@@ -9,6 +9,7 @@ This C++ project simulates deadlock detection in an operating system environment
 - [Usage](#-usage)
 - [Files](#-files)
 - [License](#-license)
+- [Author](#-author)
 
 ## 📁 Overview
 
@@ -48,10 +49,7 @@ It then simulates a deadlock detection algorithm, analyzing whether processes ca
 - `CSV files/` - Contains sample input CSV files for simulation
 - `ENCS3390_project3.pdf` - Project specification document
 
-## 📜 License
+## 👤 Author
 
-This project is for educational use and submitted as part of coursework.
+- **Osaid Nur**  
 
----
-
-*Developed by Osaid Hasan Nur - ID: 1210733, Section: 4*
