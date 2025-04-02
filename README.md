@@ -1,4 +1,4 @@
-# 🧠 Deadlock Detection Simulator
+#  Deadlock Detection Simulator
 
 This C++ project simulates deadlock detection in an operating system environment by analyzing process-resource allocation scenarios using CSV input files.
 
